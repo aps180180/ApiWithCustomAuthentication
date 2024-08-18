@@ -10,8 +10,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace ApiWithAccessToken.Migrations
 {
     [DbContext(typeof(AuthDbContext))]
-    [Migration("20240818185632_Initial")]
-    partial class Initial
+    [Migration("20240818225726_initial")]
+    partial class initial
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
